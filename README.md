@@ -2,6 +2,12 @@
 
 Un jeu Pong moderne développé avec **Phaser 3** et **TypeScript**, optimisé pour les smartphones avec une architecture modulaire complète.
 
+## 📸 Aperçu du jeu
+
+![Screenshot du jeu Pong Frag](screenshot.png)
+
+*Pong Frag en action : contrôles tactiles, crédits défilants, interface moderne*
+
 ## 🎮 Fonctionnalités
 
 ### 🎯 Gameplay
