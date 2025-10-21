@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- Forcer l'orientation paysage -->
+    <meta name="screen-orientation" content="landscape">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Pong Frag - Apprentissage Phaser</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+        
+        /* Message d'orientation pour mobile */
+        @media (orientation: portrait) and (max-width: 768px) {
+            body::before {
+                content: "🔄 Veuillez tourner votre téléphone en mode paysage pour une meilleure expérience";
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(44, 62, 80, 0.95);
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 18px;
+                padding: 20px;
+                z-index: 1000;
+                line-height: 1.4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

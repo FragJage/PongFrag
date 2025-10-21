@@ -1,0 +1,187 @@
+# 📂 Pong Frag - Fichiers à ignorer par Git
+
+# =============================================================================
+# 📦 Dependencies & Node Modules
+# =============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# 🏗️ Build & Distribution
+# =============================================================================
+dist/
+dist-ssr/
+build/
+out/
+
+# =============================================================================
+# 🔧 Vite & Development
+# =============================================================================
+.vite/
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================================================================
+# 📱 Capacitor & Android
+# =============================================================================
+android/
+ios/
+capacitor.config.json
+
+# APK générés
+*.apk
+*.aab
+pong-frag.apk
+
+# Gradle (Android)
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# =============================================================================
+# 🎵 Assets (optionnel - décommenter si tu veux ignorer)
+# =============================================================================
+# public/assets/musics/*.mp3
+# public/assets/sounds/*.mp3
+# public/assets/images/*.png
+# public/assets/images/*.jpg
+
+# =============================================================================
+# 🧑‍💻 IDE & Editors
+# =============================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# 💻 Operating Systems
+# =============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =============================================================================
+# 📊 Logs & Debugging
+# =============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# =============================================================================
+# 🗃️ Cache & Temporary
+# =============================================================================
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Temporary folders
+tmp/
+temp/
+
+# =============================================================================
+# 🔐 Security & Keys
+# =============================================================================
+# Secrets et clés
+.env.secret
+*.key
+*.pem
+*.p12
+keystore.properties
+
+# =============================================================================
+# 📝 Documentation générée
+# =============================================================================
+# Si tu utilises un générateur de docs
+docs/build/
+docs/.docusaurus/
+
+# =============================================================================
+# 🎯 Spécifique au projet
+# =============================================================================
+# Fichiers de test/debug locaux
+test-local/
+debug/
+playground/
+
+# Sauvegardes temporaires
+*.bak
+*.backup
+*.tmp
+
+# =============================================================================
+# 📱 Mobile spécifique
+# =============================================================================
+# Capacitor sync files
+.capacitor/
+android/app/src/main/assets/public/
+
+# Android Studio
+android/.gradle/
+android/build/
+android/app/build/
+android/gradle.properties
+android/local.properties
+
+# iOS (si ajouté plus tard)
+ios/App/build/
+ios/App/Pods/
+ios/App/Podfile.lock

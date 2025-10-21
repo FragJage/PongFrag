@@ -1,0 +1,22 @@
+{
+  "name": "pong-frag-phaser",
+  "version": "1.0.0",
+  "description": "Apprentissage du développement de jeux avec Phaser et TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "apk": "./build-apk.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "phaser": "^3.70.0"
+  }
+}
